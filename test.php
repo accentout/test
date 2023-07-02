@@ -5,7 +5,7 @@ $result = sumpow($data);
 
 echo $result;
 
-function sumpow($data){
+function sumpow(array $data){
     $sum = 0;
 
     foreach ($data as $num){
